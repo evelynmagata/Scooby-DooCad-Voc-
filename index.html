@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Scooby-Doo, Cadê Você?</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você é um investigador e recebe uma carta da Turma do Mistério S.A. Nela fala que estão precisando da sua ajuda no caso Confusão na Elevação, em um circo:</p>
+            <button class="btn-proximo" data-proximo="1">Encontrar com eles em Baía Cristal</button>
+            <button class="btn-proximo" data-proximo="2">Já ir para o circo esperar eles</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você entra na van Máquina de Mistério para embarcar nessa investigação cheia de emoção.</p>
+            <button class="btn-proximo" data-proximo="3">Vocês se encontram e começam a montar um plano</button>
+            <button class="btn-proximo" data-proximo="4">Ficar com muito medo de fantasma e meter o pé.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Nem precisou esperar, eles já estavam lá. Para agilizar e disfarçar o seu atraso você decide:</p>
+            <button class="btn-proximo" data-proximo="5">Investigar áreas de manuntenção com Fred e Daphne</button>
+            <button class="btn-proximo" data-proximo="6">Explorar os bastidores do circo com Velma, Salsicha e Scooby</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Vocês decidem que vão se separar para encontrar pistas mais rápido</p>
+            <button class="btn-proximo" data-proximo="7">Investigar os bastidores do circo com Velma, Salsicha e Scooby</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="https://museudememes.com.br/wp-content/uploads/2022/05/sad-cat-1.jpg" alt="chorando no banho">
+            <p>Você se borrou todo e foi para casa chorar no banho.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Vocês estão procurando vestígios do monstro que está atazanando o circo, mas escuta o Scooby gritando socorro</p>
+            <button class="btn-proximo" data-proximo="7">Correr para salvá-lo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Vocês estão investigando os bastidores até que o Salsicha percebe que o Scooby foi hipnotizado, a Velma consegue tirar ele da hipnose mas ele se assusta com um Palhaço Fantasma.</p>
+            <button class="btn-proximo" data-proximo="8">Sair correndo pro resto do grupo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Primeiro iremos:</p>
+            <button class="btn-proximo" data-proximo="9">Ir direto pro palco já pra pegar o palhaço no pulo</button>
+            <button class="btn-proximo" data-proximo="10">Voltar para a área de manuntenção pra conseguir fazer um plano</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Vocês se encontram, e Velma fala que o Scooby foi hipnotizado pelo Fantasma Palhaço, mas que conseguiram se salvar. Então decidem colocar o plano em prática.</p>
+            <button class="btn-proximo" data-proximo="7">Vamos começar a emboscada.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Scooby e Salsicha estão tentando chamar atenção do palhaço, a Daphne e Velma estão de vigia e você com Fred irá enfrentá-lo.</p>
+            <button class="btn-proximo" data-proximo="11">Se preparar para atacar e desmascarar o Fantasma Palhaço</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Vocês correm pra sala e conseguem pegar o palhaço desprevenido!</p>
+            <button class="btn-proximo" data-proximo="12">Algemar e desmascarar o Fantasma Palhaço</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="https://static.wikia.nocookie.net/viloes/images/c/c0/Harry_o_Hipnotizador.webp/revision/latest/scale-to-width/360?cb=20230226233025&path-prefix=pt-br" alt="O rosto revelado é de Harry o Hipnotizador!">
+            <p>Era o Harry o hipnotizador do circo! Vá com ele algemado para a van Máquina de Mistério, fim do caso, você conseguiu!.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>É o Harry o Hipnotizador!</p>
+            <button class="btn-proximo" data-proximo="11">Vocês comemoram juntos que conseguiram.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
